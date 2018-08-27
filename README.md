@@ -15,7 +15,7 @@
 
 * Start the X11 server (e.g. `XMing` on Windows)
 * Make sure docker is running
-* Download the `docker-compose.yml` file to your disk
+* Download the MoveIt [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) file to your disk
 * Open the command line, change to the folder where you downloaded the file and run:
 
         docker-compose up -d
