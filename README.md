@@ -14,15 +14,65 @@
 
 ## Getting started
 
-* Start the X11 server (e.g. `XMing` on Windows)
-* Make sure docker is running
-* Download the MoveIt [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) file to your disk
-* Open the command line, change to the folder where you downloaded the file and run:
+The very first thing to get started is to install **COMPAS** using Anaconda. Start your terminal and run the following:
+
+      conda config --add channels conda-forge
+      conda install COMPAS
+
+Great! Now type `python` in your terminal, and test if the installation went well:
+
+      >>> import compas
+
+If that doesn't fail, you're good to go!
+
+Let's make **COMPAS** available inside Rhino. Still on the terminal, type the following:
+
+      python -m compas_rhino.install 5.0
+      python -m compas_rhino.install 6.0
+
+> **NOTE:** 
+>
+> You only need to run one of those lines for the version of Rhino you use, or both if you use both versions.
+
+### Backends
+
+There are various tools used as backend for `compas_fab` and in order to make the development easier, we have packaged entire systems in  [Docker containers](https://www.docker.com/resources/what-container). Docker containers are a way to package software into isolated, standarized units with full reproducibility. 
+
+#### V-REP backend
+
+We publish [V-REP](http://www.coppeliarobotics.com/) docker images for [generic scenes](https://hub.docker.com/r/gramaziokohler/vrep/) and also a specific one for the [Robotic Fabrication Lab](https://hub.docker.com/r/gramaziokohler/vrep-rfl/) at ETH Zürich. To install the latter, run the following commands on the terminal:
+
+      docker pull gramaziokohler/vrep-rfl
+      docker run --restart=always -p 19997:19997 -d gramaziokohler/vrep-rfl
+
+#### ROS backend
+
+Running a ROS setup usually involves multiple nodes (i.e. computers, real or virtual), interconnected through a master controller. To massively simplify the use of these tools, we package entire ROS systems into sets of Docker containers. Each of these sets runs in a virtualized network within your computer.   
+
+In order to run a ROS system that includes a graphical interface, first make sure to start the X11 server (e.g. `XMing` on Windows).
+
+The steps to run this kind of system are:
+
+* Download the MoveIt [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) file to your disk (or clone this repository)
+* Open a terminal, change to the folder where the file resides and run:
 
         docker-compose up -d
 
-* ROS will start up, including `MoveIt!`'s graphical interface.
+* That's it! ROS will start up, including `MoveIt!`'s graphical interface and multiple other ROS nodes that take care of various tasks.
 
-## Notes
+#### Notes
 
 * An alternative way to install ROS on Windows is to use [WSL: Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
+## Troubleshooting
+
+Sometimes things don't go as expected. Here are some of answers to the most common issues you might bump into:
+
+> Q: Docker does not start. It complains virtualization not enabled in BIOS.
+
+This is vendor specific, depending on the manufacturer of your computer, there are different ways to fix this, but usually, pressing a key (usually `F2` for Lenovo) before Windows even start will take you to the BIOS of your machine. In there, you will find a `Virtualization` tab where this feature can be enabled.
+
+> Q: Cannot start containers, nor do anything with Docker. Error message indicates docker daemon not accessible or no response.
+
+Make sure docker is running. Especially after a fresh install, docker does not start immediately. Go to the start menu, and start `Docker for Windows`.
+
