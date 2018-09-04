@@ -4,9 +4,8 @@
 
 ## Requirements
 
-* CAD Software:
-    * [Rhinoceros 3D](https://www.rhino3d.com/): 5.0 or higher
-    * If using Rhino 5.0, also install [Grasshopper](https://www.grasshopper3d.com/) and [GHPython](https://www.food4rhino.com/app/ghpython).
+* [Rhinoceros 3D 6.0](https://www.rhino3d.com/)
+    * Focus will be on Rhino 6.0 only. While most things will work on Rhino 5.0, it is not recommended as there are several manual steps required to get the software to run. However, if you do use Rhino 5.0, make sure to install [Grasshopper](https://www.grasshopper3d.com/), [GHPython](https://www.food4rhino.com/app/ghpython) and [IronPython 2.7.5](https://github.com/IronLanguages/main/releases/tag/ipy-2.7.5) ([see here for details about this manual update](https://compas-dev.github.io/main/environments/rhino.html#ironpython-1)).
 * [Anaconda Python Distribution](https://www.anaconda.com/download/): 2.7 or 3.x
 * [Docker Community Edition](https://www.docker.com/get-started): Download it for [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) or [Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 * X11 Server: On Windows use [XMing](https://sourceforge.net/projects/xming/), on Mac use [XQuartz](https://www.xquartz.org/) (see details [here](https://medium.com/@mreichelt/how-to-show-x11-windows-within-docker-on-mac-50759f4b65cb)).
