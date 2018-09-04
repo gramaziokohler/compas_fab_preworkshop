@@ -67,10 +67,6 @@ The steps to run this kind of system are:
 
 Sometimes things don't go as expected. Here are some of answers to the most common issues you might bump into:
 
-> Q: `conda` commands don't work.
-
-Try running them from the *Conda Prompt*. Depending on how you installed Anaconda, it might not be available by default on the normal Windows terminal.
-
 > Q: Docker does not start. It complains virtualization not enabled in BIOS.
 
 This is vendor specific, depending on the manufacturer of your computer, there are different ways to fix this, but usually, pressing a key (usually `F2` for Lenovo) before Windows even start will take you to the BIOS of your machine. In there, you will find a `Virtualization` tab where this feature can be enabled.
@@ -78,4 +74,13 @@ This is vendor specific, depending on the manufacturer of your computer, there a
 > Q: Cannot start containers, nor do anything with Docker. Error message indicates docker daemon not accessible or no response.
 
 Make sure docker is running. Especially after a fresh install, docker does not start immediately. Go to the start menu, and start `Docker for Windows`.
+
+> Q: `conda` commands don't work.
+
+Try running them from the *Conda Prompt*. Depending on how you installed Anaconda, it might not be available by default on the normal Windows terminal.
+
+> Q: When trying to install the framework in Rhino, it fails indicating the lib folder of IronPython does not exist.
+
+Make sure you have opened Rhino 6 and Grasshopper at least once, so that it finishes setting up all its internal folder structure.
+
 
