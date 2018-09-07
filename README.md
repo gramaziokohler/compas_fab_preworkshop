@@ -13,21 +13,29 @@
 
 ## Getting started
 
-The very first thing to get started is to install **COMPAS** using Anaconda. Start your terminal and run the following:
+### COMPAS
+
+The very first thing to get started is to install **COMPAS** using Anaconda. Start your command line and run the following:
 
       conda config --add channels conda-forge
       conda install COMPAS
 
-Great! Now type `python` in your terminal, and test if the installation went well:
+Great! Now type `python` in your command line, and test if the installation went well:
 
       >>> import compas
 
 If that doesn't fail, you're good to go!
 
-Let's make **COMPAS** available inside Rhino. Still on the terminal, type the following:
+### Robotic fabrication package for COMPAS: compas_fab
 
-      python -m compas_rhino.install 5.0
-      python -m compas_rhino.install 6.0
+We can now install **compas_fab**. Go to the command line and run:
+
+      pip install compas_fab
+
+Let's make **COMPAS** and **compas_fab** packages available inside Rhino. Still on the command line (you might need to be running as administrator), type the following:
+
+      python -m compas_fab.rhino.install 5.0
+      python -m compas_fab.rhino.install 6.0
 
 > **NOTE:** 
 >
@@ -39,7 +47,7 @@ There are various tools used as backend for `compas_fab` and in order to make th
 
 #### V-REP backend
 
-We publish [V-REP](http://www.coppeliarobotics.com/) docker images for [generic scenes](https://hub.docker.com/r/gramaziokohler/vrep/) and also a specific one for the [Robotic Fabrication Lab](https://hub.docker.com/r/gramaziokohler/vrep-rfl/) at ETH Zürich. To install the latter, run the following commands on the terminal:
+We publish [V-REP](http://www.coppeliarobotics.com/) docker images for [generic scenes](https://hub.docker.com/r/gramaziokohler/vrep/) and also a specific one for the [Robotic Fabrication Lab](https://hub.docker.com/r/gramaziokohler/vrep-rfl/) at ETH Zürich. To install the latter, run the following commands on the command line:
 
       docker pull gramaziokohler/vrep-rfl
       docker run --restart=always -p 19997:19997 -d gramaziokohler/vrep-rfl
@@ -53,7 +61,7 @@ In order to run a ROS system that includes a graphical interface, first make sur
 The steps to run this kind of system are:
 
 * Download the MoveIt [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) file to your disk (or clone this repository)
-* Open a terminal, change to the folder where the file resides and run:
+* Open a command line, change to the folder where the file resides and run:
 
         docker-compose up -d
 
@@ -77,10 +85,13 @@ Make sure docker is running. Especially after a fresh install, docker does not s
 
 > Q: `conda` commands don't work.
 
-Try running them from the *Conda Prompt*. Depending on how you installed Anaconda, it might not be available by default on the normal Windows terminal.
+Try running them from the *Conda Prompt*. Depending on how you installed Anaconda, it might not be available by default on the normal Windows command line.
 
 > Q: When trying to install the framework in Rhino, it fails indicating the lib folder of IronPython does not exist.
 
 Make sure you have opened Rhino 6 and Grasshopper at least once, so that it finishes setting up all its internal folder structure.
 
+> Q: If fails when trying to install on Rhino.
+
+Try starting the command line as administrator. Depending on the version of Python, it might be required or not.
 
