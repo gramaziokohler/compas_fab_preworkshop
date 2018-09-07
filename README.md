@@ -2,6 +2,8 @@
 
 **Windows users**: the only Windows version that supports many of the requirements is **Windows 10**, making it a pre-requisite for everything else.
 
+> Notice: if you get an error, scroll down and check the [Troubleshooting](#troubleshooting) section
+
 ## Requirements
 
 * [Rhinoceros 3D 6.0](https://www.rhino3d.com/)
@@ -91,7 +93,7 @@ Try running them from the *Conda Prompt*. Depending on how you installed Anacond
 
 Make sure you have opened Rhino 6 and Grasshopper at least once, so that it finishes setting up all its internal folder structure.
 
-> Q: If fails when trying to install on Rhino.
+> Q: It fails when trying to install on Rhino.
 
 Try starting the command line as administrator. Depending on the version of Python, it might be required or not.
 
