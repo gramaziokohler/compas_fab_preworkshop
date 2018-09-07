@@ -1,6 +1,6 @@
 # Pre-workshop: Introduction to compas_fab
 
-**Windows users**: the only Windows version that supports many of the requirements is **Windows 10**, making it a pre-requisite for everything else.
+**Windows users**: the only Windows version that supports many of the requirements is **Windows 10** (Pro+), making it a pre-requisite for everything else.
 
 > Notice: if you get an error, scroll down and check the [Troubleshooting](#troubleshooting) section
 
