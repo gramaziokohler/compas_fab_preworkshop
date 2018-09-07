@@ -1,3 +1,5 @@
+_**links:**_ [[Main compas docs]](https://compas-dev.github.io/main/) | [[compas_fab docs]](https://gramaziokohler.github.io/compas_fab/latest/)
+
 # Pre-workshop: Introduction to compas_fab
 
 **Windows users**: the only Windows version that supports many of the requirements is **Windows 10** (Pro+), making it a pre-requisite for everything else.
