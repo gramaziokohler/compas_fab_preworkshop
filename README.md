@@ -1,4 +1,4 @@
-_**links:**_ [Main compas docs](https://compas-dev.github.io/main/) | [compas_fab docs](https://gramaziokohler.github.io/compas_fab/latest/)
+_**links:**_ [compas: main library docs](https://compas-dev.github.io/main/) | [compas_fab docs](https://gramaziokohler.github.io/compas_fab/latest/) | [slides](slides.pdf)
 
 # Pre-workshop: Introduction to compas_fab
 
@@ -81,13 +81,13 @@ By now, you should be up and running and ready to start playing with the framewo
 > Are you new to programming? Check out [this tutorial to learn some basics of Python and compas datastructures](https://compas-dev.github.io/main/tutorial/datastructures/mesh.html)
 
 - COMPAS main library:
-  - [x] Loading and rendering meshes. Link: Slide 10
+  - [x] Loading and rendering meshes. Slide 10 ([slides](slides.pdf))
   - [x] [Delaunay triangulation with boundary.](https://compas-dev.github.io/main/examples/delaunay-with-boundary.html)
   - [X] [Additional COMPAS examples](https://compas-dev.github.io/main/examples.html)
-  - [x] Frame & Transformation examples. Link: Slides 18-22
+  - [x] Frame & Transformation examples. Slides 18-22 ([slides](slides.pdf))
 - Robot model examples:
-  - [X] Robot loading and rendering on Rhino. Link: Slides 25-27
-  - [ ] Robot loading and rendering on Blender. Link: Slides 25-27
+  - [X] Robot loading and rendering on Rhino. Slides 25-27 ([slides](slides.pdf))
+  - [ ] Robot loading and rendering on Blender. Slides 25-27 ([slides](slides.pdf))
   - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
 - Explanation: Robot creation from in-memory structures & from URDF files
 - V-REP Examples:
