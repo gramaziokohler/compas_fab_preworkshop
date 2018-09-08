@@ -36,14 +36,14 @@ We can now install **compas_fab**. Go to the Anaconda Prompt and run:
 
       pip install compas_fab
 
-Let's make **COMPAS** and **compas_fab** packages available inside Rhino. Still on the command prompt (you might need to be running as administrator), type the following:
-
-      python -m compas_fab.rhino.install 5.0
-      python -m compas_fab.rhino.install 6.0
+Let's make **COMPAS** and **compas_fab** packages available inside Rhino. Still on the Anaconda Prompt (you might need to be running as administrator), type the following:
 
 > **NOTE:** 
 >
 > You only need to run one of those lines for the version of Rhino you use, or both if you use both versions.
+
+      python -m compas_fab.rhino.install 5.0
+      python -m compas_fab.rhino.install 6.0
 
 ### Backends
 
@@ -64,8 +64,8 @@ In order to run a ROS system that includes a graphical interface, first make sur
 
 The steps to run this kind of system are:
 
-* Download the MoveIt [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) file to your disk (or clone this repository)
-* Open a command prompt, change to the folder where the file resides and run:
+* Sign in to your Github account and Download the MoveIt file [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) to your disk (or clone this repository)
+* Open a Anaconda Prompt, change to the folder where the file resides and run:
 
         docker-compose up -d
 
