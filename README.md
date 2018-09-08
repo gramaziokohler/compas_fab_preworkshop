@@ -86,8 +86,9 @@ By now, you should be up and running and ready to start playing with the framewo
   - [X] [Additional COMPAS examples](https://compas-dev.github.io/main/examples.html)
   - [x] Frame & Transformation examples. Slides 18-22 ([slides](slides.pdf))
 - Robot model examples:
-  - [X] Robot loading and rendering on Rhino. Slides 25-27 ([slides](slides.pdf))
-  - [ ] Robot loading and rendering on Blender. Slides 25-27 ([slides](slides.pdf))
+  - [X] [Robot loading and rendering](https://gramaziokohler.github.io/compas_fab/latest/examples/03_kinematic_model.html#visualizing-robot-models-1)
+    - [X] [On Rhino](https://gramaziokohler.github.io/compas_fab/_downloads/robot-artist-rhino.py)
+    - [X] [On Blender](https://gramaziokohler.github.io/compas_fab/_downloads/robot-artist-blender.py)
   - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
 - Explanation: Robot creation from in-memory structures & from URDF files
 - V-REP Examples:
@@ -100,8 +101,8 @@ By now, you should be up and running and ready to start playing with the framewo
 - ROS Examples:
   - [X] [Connection check with ROS](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#first-step-1)
   - [X] [ROS Listener/Talker with `RosClient`](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#hello-world-1)
-  - [ ] Inverse Kinematics with ROS
-  - [ ] Compute cartesian path with ROS
+- Demo: Inverse Kinematics with ROS
+- Demo: Compute cartesian path with ROS
 - Demo: Robot control with ROS
 
 ## Troubleshooting
