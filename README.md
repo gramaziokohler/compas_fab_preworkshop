@@ -19,12 +19,12 @@ _**links:**_ [Main compas docs](https://compas-dev.github.io/main/) | [compas_fa
 
 ### COMPAS
 
-The very first thing to get started is to install **COMPAS** using Anaconda. Start your command prompt and run the following:
+The very first thing to get started is to install **COMPAS** using Anaconda. Start your Anaconda Prompt and run the following:
 
       conda config --add channels conda-forge
       conda install COMPAS
 
-Great! Now type `python` in your command prompt, and test if the installation went well:
+Great! Now type `python` in your Anaconda Prompt, and test if the installation went well:
 
       >>> import compas
 
@@ -32,7 +32,7 @@ If that doesn't fail, you're good to go!
 
 ### Robotic fabrication package for COMPAS: compas_fab
 
-We can now install **compas_fab**. Go to the command prompt and run:
+We can now install **compas_fab**. Go to the Anaconda Prompt and run:
 
       pip install compas_fab
 
@@ -99,3 +99,7 @@ Make sure you have opened Rhino 6 and Grasshopper at least once, so that it fini
 
 Try starting the command prompt as administrator. Depending on the version of Python, it might be required or not.
 
+> Q: error: Microsoft Visual C++ 14.0 is required
+
+Follow the link to install Microsoft Visual C++ 14.0
+https://www.scivision.co/python-windows-visual-c++-14-required/
