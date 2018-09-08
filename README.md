@@ -87,8 +87,8 @@ By now, you should be up and running and ready to start playing with the framewo
   - [x] Frame & Transformation examples. Slides 18-22 ([slides](slides.pdf))
 - Robot model examples:
   - [X] [Robot loading and rendering](https://gramaziokohler.github.io/compas_fab/latest/examples/03_kinematic_model.html#visualizing-robot-models-1)
-    - [X] [On Rhino](https://gramaziokohler.github.io/compas_fab/_downloads/robot-artist-rhino.py)
-    - [X] [On Blender](https://gramaziokohler.github.io/compas_fab/_downloads/robot-artist-blender.py)
+    - [X] [On Rhino](https://gramaziokohler.github.io/compas_fab/latest/_downloads/robot-artist-rhino.py)
+    - [X] [On Blender](https://gramaziokohler.github.io/compas_fab/latest/_downloads/robot-artist-blender.py)
   - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
 - Explanation: Robot creation from in-memory structures & from URDF files
 - V-REP Examples:
