@@ -39,7 +39,6 @@ We can now install **compas_fab**. Go to the Anaconda Prompt and run:
 Let's make **COMPAS** and **compas_fab** packages available inside Rhino. Still on the Anaconda Prompt (you might need to be running as administrator), type the following:
 
 > **NOTE:** 
->
 > You only need to run one of those lines for the version of Rhino you use, or both if you use both versions.
 
       python -m compas_fab.rhino.install 5.0
