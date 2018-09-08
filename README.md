@@ -63,12 +63,14 @@ In order to run a ROS system that includes a graphical interface, first make sur
 
 The steps to run this kind of system are:
 
-* Sign in to your Github account and Download the MoveIt file [`docker-compose.yml`](https://github.com/gramaziokohler/compas_fab_preworkshop/blob/master/ros_systems/moveit/docker-compose.yml) to your disk (or clone this repository)
-* Open a Anaconda Prompt, change to the folder where the file resides and run:
+* Download a `docker compose` file to your disk
+* Open an Anaconda Prompt, change to the folder where the file resides and run:
 
         docker-compose up -d
 
-* That's it! ROS will start up, including `MoveIt!`'s graphical interface and multiple other ROS nodes that take care of various tasks.
+* That's it! ROS will start up, including all of its multiple ROS nodes that take care of various tasks.
+
+For more details, check [the documentation](http://localhost:7800/backends/ros.html#entire-ros-systems-1).
 
 #### Notes
 
