@@ -75,6 +75,35 @@ The steps to run this kind of system are:
 
 * An alternative way to install ROS on Windows is to use [WSL: Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
+## Let's code!
+
+By now, you should be up and running and ready to start playing with the framework!
+
+> Are you new to programming? Check out [this tutorial to learn some basics of Python and compas datastructures](https://compas-dev.github.io/main/tutorial/datastructures/mesh.html)
+
+- COMPAS main library:
+  - [x] Loading and rendering meshes. Link: Slide 10
+  - [x] [Delaunay triangulation with boundary.](https://compas-dev.github.io/main/examples/delaunay-with-boundary.html)
+  - [X] [Additional COMPAS examples](https://compas-dev.github.io/main/examples.html)
+  - [x] Frame & Transformation examples. Link: Slides 18-22
+- Robot model examples:
+  - [X] Robot loading and rendering on Rhino. Link: Slides 25-27
+  - [ ] Robot loading and rendering on Blender. Link: Slides 25-27
+  - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
+  - Explanation: Robot creation from in-memory structures & from URDF files
+- V-REP Examples:
+  - [X] [Connection check V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#first-step-1)
+  - [X] [Forward Kinematics with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#moving-robots-1)
+  - [X] [Inverse Kinematics with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#inverse-kinematics-1)
+  - [X] [Path planning examples with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#basic-path-planning-example-1)
+  - [X] [Path planning with V-REP on Grasshopper](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#grasshopper-integration-1)
+- Demo: Applied path planning with V-REP (Augusto's demo)
+- ROS Examples:
+  - [X] [Connection check with ROS](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#first-step-1)
+  - [X] [ROS Listener/Talker with `RosClient`](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#hello-world-1)
+  - [ ] FK with ROS
+- Demo: Robot control with ROS
+
 ## Troubleshooting
 
 Sometimes things don't go as expected. Here are some of answers to the most common issues you might bump into:
