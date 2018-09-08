@@ -100,7 +100,8 @@ By now, you should be up and running and ready to start playing with the framewo
 - ROS Examples:
   - [X] [Connection check with ROS](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#first-step-1)
   - [X] [ROS Listener/Talker with `RosClient`](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#hello-world-1)
-  - [ ] FK with ROS
+  - [ ] Inverse Kinematics with ROS
+  - [ ] Compute cartesian path with ROS
 - Demo: Robot control with ROS
 
 ## Troubleshooting
