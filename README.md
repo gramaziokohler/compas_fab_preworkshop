@@ -89,7 +89,7 @@ By now, you should be up and running and ready to start playing with the framewo
   - [X] Robot loading and rendering on Rhino. Link: Slides 25-27
   - [ ] Robot loading and rendering on Blender. Link: Slides 25-27
   - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
-  - Explanation: Robot creation from in-memory structures & from URDF files
+- Explanation: Robot creation from in-memory structures & from URDF files
 - V-REP Examples:
   - [X] [Connection check V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#first-step-1)
   - [X] [Forward Kinematics with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#moving-robots-1)
