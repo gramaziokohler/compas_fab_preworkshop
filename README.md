@@ -125,3 +125,7 @@ Try starting the command prompt as administrator. Depending on the version of Py
 
 Follow the link to install Microsoft Visual C++ 14.0
 https://www.scivision.co/python-windows-visual-c++-14-required/
+
+> Q: IWhen installing pip install compas_fab error: cannot find Frame
+
+You have already installed an older version of COMPAS. Please remove it.
