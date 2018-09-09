@@ -61,9 +61,7 @@ Running a ROS setup usually involves multiple nodes (i.e. computers, real or vir
 
 In order to run a ROS system that includes a graphical interface, first make sure to start the X11 server (e.g. `XMing` on Windows).
 
-The steps to run this kind of system are in the next documentation link:
-
-[the documentation](https://gramaziokohler.github.io/compas_fab/latest/backends/ros.html#entire-ros-systems-1).
+The steps to run this kind of system are here [the documentation](https://gramaziokohler.github.io/compas_fab/latest/backends/ros.html#entire-ros-systems-1).
 
 #### Notes
 
