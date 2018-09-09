@@ -99,7 +99,6 @@ By now, you should be up and running and ready to start playing with the framewo
   - [X] [Inverse Kinematics with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#inverse-kinematics-1)
   - [X] [Path planning examples with V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#basic-path-planning-example-1)
   - [X] [Path planning with V-REP on Grasshopper](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#grasshopper-integration-1)
-- Demo: Applied path planning with V-REP (Augusto's demo)
 - ROS Examples:
   - [X] [Connection check with ROS](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#first-step-1)
   - [X] [ROS Listener/Talker with `RosClient`](https://gramaziokohler.github.io/compas_fab/latest/examples/06_ros_examples.html#hello-world-1)
