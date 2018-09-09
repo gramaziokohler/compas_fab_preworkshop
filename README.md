@@ -91,7 +91,7 @@ By now, you should be up and running and ready to start playing with the framewo
   - [X] [Robot loading and rendering](https://gramaziokohler.github.io/compas_fab/latest/examples/03_kinematic_model.html#visualizing-robot-models-1)
     - [X] [On Rhino](https://gramaziokohler.github.io/compas_fab/latest/_downloads/robot-artist-rhino.py)
     - [X] [On Blender](https://gramaziokohler.github.io/compas_fab/latest/_downloads/robot-artist-blender.py)
-  - [X] Robot loading from Github and FK in Grasshopper. Link: Grasshopper file (TODO: Upload)
+  - [X] [Robot loading from Github and FK in Grasshopper](https://gramaziokohler.github.io/compas_fab/latest/_downloads/robot-artist-grasshopper.ghx)
 - Explanation: Robot creation from in-memory structures & from URDF files
 - V-REP Examples:
   - [X] [Connection check V-REP](https://gramaziokohler.github.io/compas_fab/latest/examples/05_simulation_with_vrep.html#first-step-1)
