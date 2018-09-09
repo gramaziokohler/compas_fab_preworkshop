@@ -61,16 +61,9 @@ Running a ROS setup usually involves multiple nodes (i.e. computers, real or vir
 
 In order to run a ROS system that includes a graphical interface, first make sure to start the X11 server (e.g. `XMing` on Windows).
 
-The steps to run this kind of system are:
+The steps to run this kind of system are in the next documentation link:
 
-* Download a `docker compose` file to your disk
-* Open an Anaconda Prompt, change to the folder where the file resides and run:
-
-        docker-compose up -d
-
-* That's it! ROS will start up, including all of its multiple ROS nodes that take care of various tasks.
-
-For more details, check [the documentation](https://gramaziokohler.github.io/compas_fab/latest/backends/ros.html#entire-ros-systems-1).
+[the documentation](https://gramaziokohler.github.io/compas_fab/latest/backends/ros.html#entire-ros-systems-1).
 
 #### Notes
 
