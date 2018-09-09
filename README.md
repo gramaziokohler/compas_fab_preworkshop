@@ -70,7 +70,7 @@ The steps to run this kind of system are:
 
 * That's it! ROS will start up, including all of its multiple ROS nodes that take care of various tasks.
 
-For more details, check [the documentation](http://localhost:7800/backends/ros.html#entire-ros-systems-1).
+For more details, check [the documentation](https://gramaziokohler.github.io/compas_fab/latest/backends/ros.html#entire-ros-systems-1).
 
 #### Notes
 
