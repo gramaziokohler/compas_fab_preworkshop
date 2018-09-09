@@ -1,4 +1,4 @@
-_**links:**_ [compas: main library docs](https://compas-dev.github.io/main/) | [compas_fab docs](https://gramaziokohler.github.io/compas_fab/latest/) | [slides](slides.pdf)
+_**links:**_ [compas: main library docs](https://compas-dev.github.io/main/) | [compas_fab docs](https://gramaziokohler.github.io/compas_fab/latest/) | [slides](slides.pdf) | [troubleshooting](#troubleshooting)
 
 # Pre-workshop: Introduction to compas_fab
 
